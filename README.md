@@ -32,6 +32,7 @@ Inside a virtual environment running Python 3:
 
 <h2>POST</h2>
 Example Post Bond<br>
+```
 [
 {"bonds":
     {
@@ -43,4 +44,4 @@ Example Post Bond<br>
     }
 }
 ]
-~~~
+```
