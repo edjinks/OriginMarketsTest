@@ -17,6 +17,9 @@ Inside a virtual environment running Python 3:
 <ul>
  <li> U: admin, P: admin</li>
   <li> U: testuser, P: originmarkets</li>
+ <li>Login is found by going to http://127.0.0.1:8000/accounts/login and logout http://127.0.0.1:8000/logout </li>
+ <li>Modelsand users can be seen in admin (http://127.0.0.1:8000/admin)</li>
+ <li>GET and POST requests can be done on http://127.0.0.1:8000/bonds</li>
  </ul></li>
 <li>Filter by legalname (e.g http://127.0.0.1:8000/bonds/?legal_name=BNP PARIBAS)</li>
  <li>Automatically gather Legal Name from the GLEIF API on POST</li>
