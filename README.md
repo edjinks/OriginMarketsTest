@@ -1,19 +1,19 @@
 # OriginMarketsTest
 
-My implementation of the Backend Python Technical Test.
+My implementation of the Backend Python Technical Test.<br>
 
-This was my first time using Django and took me around 4 hours to complete.
+This was my first time using Django and took me around 4 hours to complete.<br>
 
 <h2>FEATURES:</h2>
-login/logout functionality to limit users to only being able to see their own bonds
+login/logout functionality to limit users to only being able to see their own bonds<br>
 Users currently setup are: <br>
-  U: admin, P: admin;
-  U: testuser, P: originmarkets
-Filter by legalname (e.g http://127.0.0.1:8000/bonds/?legal_name=BNP PARIBAS)
+ <ul> U: admin, P: admin;<\ul>
+  <ul> U: testuser, P: originmarkets<\ul><br>
+Filter by legalname (e.g http://127.0.0.1:8000/bonds/?legal_name=BNP PARIBAS)<br>
 Automatically gather Legal Name from the GLEIF API on POST
 
  
-PAGES:
+<h2>PAGES:<\h2>
 http://127.0.0.1:8000/bonds
 http://127.0.0.1:8000/admin
 http://127.0.0.1:8000/accounts/login
