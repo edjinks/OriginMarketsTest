@@ -32,12 +32,15 @@ Inside a virtual environment running Python 3:
 
 <h2>POST</h2>
 Example Post Bond<br>
+[
 {"bonds":
-  {
-    "isin": "FR0000131104",
-    "size": 100000000,
-    "currency": "EUR",
-    "maturity": "2025-02-28",
-    "lei": "R0MUWSFPU8MPRO8K5P83"
-  }
+    {
+        "isin": "FR0000131104",
+        "size": 100000000,
+        "currency": "EUR",
+        "maturity": "2025-02-28",
+        "lei": "R0MUWSFPU8MPRO8K5P83"
+    }
 }
+]
+~~~
